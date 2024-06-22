@@ -5,7 +5,7 @@ export function useForm() {
     email: "",
     nome: "",
     telefone: "",
-    descricao: ""
+    descrição: "",
   });
 
   function handleChange(event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
@@ -14,7 +14,12 @@ export function useForm() {
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    console.log(formData);
+
+    const filteredFormData = Object.fromEntries(
+      Object.entries(formData).filter(([key, value]) => value !== "")
+    );
+
+    console.log(filteredFormData);
   }
 
   return { formData, handleChange, handleSubmit };
