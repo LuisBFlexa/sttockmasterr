@@ -1,0 +1,20 @@
+.aboutus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 20px; 
+  }
+  
+  .title {
+    grid-column: 1 / span 2;
+    color: #C24124;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .body {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+  

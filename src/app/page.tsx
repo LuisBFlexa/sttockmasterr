@@ -38,12 +38,16 @@
 //   );
 // }
 
+import Aboutus from '~/app/_components/AboutUs'; 
 import Footer from '~/app/_components/Footer';
 
 export default function Home() {
   return (
     <div>
+
+      <Aboutus />
       <Footer />
     </div>
   );
 }
+
