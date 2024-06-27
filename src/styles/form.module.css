@@ -1,3 +1,12 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Altura total da janela de visualização */
+    margin: 0;
+    background-color: #ffffff;
+}
+
 .main {
     border-radius: 20px;
     background-color: #C27E51;

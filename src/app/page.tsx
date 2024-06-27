@@ -40,12 +40,18 @@
 
 import Aboutus from '~/app/_components/AboutUs'; 
 import Footer from '~/app/_components/Footer';
+import { Navbar } from './_components/navBar';
+import { Form }  from '~/app/_components/form';
+import styles from "~/styles/form.module.css";
 
 export default function Home() {
   return (
     <div>
-
+      <Navbar/>
       <Aboutus />
+      <section className={styles.form}>
+        <Form/>
+      </section>
       <Footer />
     </div>
   );
