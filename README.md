@@ -67,9 +67,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **[Next.js](https://nextjs.org)**: Framework React para desenvolvimento de aplicações web modernas.
 - **[NextAuth.js](https://next-auth.js.org)**: Solução completa para autenticação em aplicações Next.js.
 - **[Prisma](https://prisma.io)**: ORM para Node.js e TypeScript.
-- **[Drizzle](https://orm.drizzle.team)**: ORM moderno para TypeScript.
 - **[Tailwind CSS](https://tailwindcss.com)**: Framework CSS utilitário para estilização rápida e responsiva.
-- **[tRPC](https://trpc.io)**: Ferramenta para construir APIs fortemente tipadas com TypeScript.
 
 ### Backend
 
